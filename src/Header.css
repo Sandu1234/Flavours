@@ -1,0 +1,74 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px; /* Adjust height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px; /* Reduced padding */
+    /* background: rgba(255, 255, 255, 0.9); */
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center; /* Center the logo vertically */
+    margin-left: 20px; /* Add some space between the nav links and the button */
+  }
+  
+  .logo img {
+    margin-top: 120px;
+    height: 160px;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 80px; /* Reduced gap between navigation links */
+    flex: 1; /* Allow navigation links to take up remaining space */
+    margin: 0 10px; /* Reduce space between logo and navigation links */
+    margin-top: 50px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0; /* Ensure no extra margin */
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #000000;
+  }
+  
+  .shop-now {
+    display: flex;
+    align-items: center; 
+  }
+  
+  .shop-now button {
+    padding: 10px 15px; /* Reduced padding for a compact look */
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 8px;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    margin-left: 10px; /* Add some space between the nav links and the button */
+    margin-right: 40px; /* Add some space between the nav links and the button */
+    margin-top: 50px;
+  }
+  
+  .shop-now button:hover {
+    border-color: black;
+    color: black;
+  }
+  
